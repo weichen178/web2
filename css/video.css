@@ -1,0 +1,143 @@
+body{
+    background-color: #fff;
+}
+
+#video_title{
+    width: 600px;
+    height: 100px;
+    margin: 0 0 0 120px;
+    padding: 0;
+    font: 60px Papyrus;
+    color: #008844;
+    float: left;
+}
+
+#v_P_2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#v1{
+    width: 533px;
+    height: 300px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+
+#recommend{
+    width: 400px;
+    height: 100px;
+    margin: 5px 0 0 0;
+    float: right;
+}
+
+#more_label{
+    text-align: center;
+    font: 20px 幼圆;
+    color: #008844;
+    width: 200px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#more{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border-color: #008844;
+    background-color: #fff;
+}
+
+#recommend_sub{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    margin-right: 210px;
+    float: right;
+    color: #008844;
+    font: 8px 幼圆;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 35px;
+}
+
+#recommend p{
+    margin: 0;
+    padding: 0;
+}
+
+#video_table{
+    width: 1240px;
+    height: 600px;
+    margin: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0;
+    border-collapse: collapse;
+    /* 将border中间的空隙消除 */
+    float: left;
+}
+
+.video_tr1{
+    width: 1240px;
+    height: 100px;
+}
+
+.video_tr2{
+    width: 1240px;
+    height: 200px;
+}
+
+.video_tr3{
+    width: 1240px;
+    height: 300px;
+}
+
+.video_td1{
+    width: 107px;
+    border: 2px solid #008844;
+    text-align: center;
+    font: 20px 幼圆;
+    color: black;
+}
+
+.video_td2{
+    width: 533px;
+    margin: 0;
+    margin-right: 50px;
+    margin-right: 100px;
+    border: 2px solid #008844;
+    font: 20px 幼圆;
+    color: black;
+    text-align: center;
+}
+
+.video_td3{
+    width: 400px;
+    margin: 0;
+    margin-right: 50px;
+    border: 2px solid #008844;
+    font: 15px 幼圆;
+    line-height: 23px;
+    text-indent: 2em;
+    color: black;
+    text-align: left;
+}
+
+.video_tr3 .video_td3{
+    text-align: center;
+    font: 25px Papyrus;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/book.css">
+</head>
+<body>
+    <div id="book_inner">
+        <!-- 表头设置，图片为绝对定位 -->
+        <img src="./img/b2.jpg" alt="Read Some Books" id="b2">
+        <!-- 用艺术字体Papyrus -->
+        <div id="book_title">Read Some Books</div>
+        <!-- 推荐区,浮动在右侧 -->
+        <div id="recommend">
+            <p><label for="more" id="more_label">给我也推一些好书吧！</label></p>
+            <p><textarea id="more" name="idea"  cols="50" rows="3"></textarea></p>
+            <p><input type="submit" value="提交" id="recommend_sub"></p> 
+        </div>
+        <!-- 用表格介绍书 -->
+        <table id="book_table">
+            <!-- 表头 -->
+            <tr id="book_table_title">
+                <td class="book_name">书名</td>
+                <td class="book_author">作者</td>
+                <td class="book_abstract">简介</td>
+                <td class="book_quote">语录</td>
+            </tr>
+            <!-- 内容 -->
+            <tr class="book_tr">
+                <!-- 书名+一张图片 -->
+                <td class="book_name">《云边有个小卖部》<img src="./img/b_yun.jpg" alt="云边有个小卖部" class="b_P"></td>
+                <!-- 作者简介 -->
+                <td class="book_author">张嘉佳<br>其他作品：《摆渡人》、《从你的全世界路过》等</td>
+                <!-- 下段用p -->
+                <td class="book_abstract">云边镇的刘十三从小与外婆王莺莺相依为命，为了离开小镇努力学习，去大城市追寻梦想和远方，结果在城市被撞得遍体鳞伤。
+                    <p class="book_abstract_p">回到小镇后，与儿时玩伴程霜重逢。一个孤儿、一场婚礼、一个意外，一个不可能完成的任务，几乎打破了十三和小镇居民的平静生活。十三拼尽全力在生活，却没发现生命中最重要的人正慢慢离自己而去。</p></td>
+                <td class="book_quote">
+                    <!-- 用列表来显示经典语录 -->
+                    <ul class="book_quote_inner">
+                        <li class="book_quote_list">人和人之间舒服的关系，是可以一直不说话，也可以随时说话</li>
+                        <li class="book_quote_list">有些人刻苦铭心，没几年会遗忘。有些人不论生死，都陪在身旁</li>
+                        <li class="book_quote_list">有朵盛开的云，缓缓滑过山顶，随风飘向天边，我们慢慢明白，有些告别，就是最后一面</li>
+                        <li class="book_quote_list">生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。我爱你，你要记得我</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="book_tr">
+                <!-- 书名+一张图片 -->
+                <td class="book_name">《外婆的道歉信》<img src="./img/b_waipo.jpg" alt="外婆的道歉信" class="b_P"></td>
+                <!-- 作者简介 -->
+                <td class="book_author">弗雷德里克·巴克曼<br>【瑞典】<br>其他作品：《一个叫欧维的男人决定去死》等</td>
+                <!-- 下段用p -->
+                <td class="book_abstract">七岁的爱莎有个古怪又疯狂的外婆，在阳台上用彩弹枪射击推销员等等，基本上想干什么就干什么。这个四处惹麻烦的外婆却是爱莎仅有的朋友，也是她心中的超级英雄。不管什么情况下，外婆都会站在爱莎这一边，为了她去跟全世界拼命。
+                    <p class="book_abstract_p">就算是超级英雄，也有失去超能力的一天。外婆不幸得了癌症去世，留给爱莎一项艰巨的任务——将外婆的道歉信送给她得罪过的九个邻居。</p></td>
+                <td class="book_quote">
+                    <!-- 用列表来显示经典语录 -->
+                    <ul class="book_quote_inner">
+                        <li class="book_quote_list">有些人不需要说话也能成为朋友</li>
+                        <li class="book_quote_list">跟死亡讲道理很难，对你爱的人放手也很难</li>
+                        <li class="book_quote_list">外婆说，每个人的心中都应该拥有一位超级英雄</li>
+                        <li class="book_quote_list">要大笑，要做梦，要与众不同。人生是一场伟大的冒险</li>
+                        <li class="book_quote_list">不是所有的怪物一开始就是怪物，有些因为悲伤才变成了怪物</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="book_tr">
+                <!-- 书名+一张图片 -->
+                <td class="book_name">《月亮与六便士》<img src="./img/b_moon.jpg" alt="月亮与六便士" class="b_P"></td>
+                <!-- 作者简介 -->
+                <td class="book_author">威廉· 萨默赛特·毛姆<br>【英国】<br>其他作品：《人生的枷锁》等</td>
+                <!-- 下段用p -->
+                <td class="book_abstract">思特里克兰德是个在伦敦做事的证券经纪人，他有一个富裕和美满的家庭：妻子漂亮，爱慕虚荣，两个孩子健康快乐。按理说，他应该满足于这种人世的快乐才对，尽管这种生活未免庸俗和平静。
+                    <p class="book_abstract_p">但是，就在他们婚后的第17个年头，他突然离家去了巴黎，抛弃了在外人看来很好的事业和家庭。就在人们以为他的出走是因为有外遇的时候，人们发现的事实却是：他原来只是为了画画。</p></td>
+                <td class="book_quote">
+                    <!-- 用列表来显示经典语录 -->
+                    <ul class="book_quote_inner">
+                        <li class="book_quote_list">我用尽了全力，过着平凡的一生</li>
+                        <li class="book_quote_list">感情有理智所根本不能理解的理由</li>
+                        <li class="book_quote_list">上帝的磨盘转动很慢，但是却磨得很细</li>
+                        <li class="book_quote_list">有的人的胸膛上已经沾了那么多泪水，我不忍再把我的洒上了</li>
+                        <li class="book_quote_list">卑鄙与伟大、恶毒与善良、仇恨与热爱是可以互不排斥地并存在同一颗心里的</li>
+                        <li class="book_quote_list">追逐梦想就是追逐自己的厄运，在满地都是六便士的街上，他抬起头看到了月光</li> 
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

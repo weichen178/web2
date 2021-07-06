@@ -1,0 +1,167 @@
+body{
+    background-color: #f1efe3;
+    margin: 0;
+    padding: 0;
+}
+
+#book_inner{
+    width: 100%;
+}
+
+#book_title{
+    width: 600px;
+    height: 100px;
+    margin: 0 0 0 180px;
+    padding: 0;
+    font: 60px Papyrus;
+    color: #85754d;
+    float: left;
+}
+
+#book_left{
+    float: left;
+    width: 120px;
+    height: 600px;
+    margin-top: 75px;
+    margin-left: 50px;
+    font: 50px Lucida Handwriting;
+    color: #85754d;
+}
+
+#b2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#book_table{
+    width: 1240px;
+    height: 600px;
+    margin: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0;
+    border-collapse: collapse;
+    float: left;
+}
+
+.book_tr{
+    width: 1240px;
+    height: 170px;
+    text-align: center;
+}
+
+.book_name{
+    font: 20px 幼圆;
+    border: 2px solid #85754d;
+    width: 220px;
+}
+
+.book_author{
+    font: 18px 幼圆;
+    border: 2px solid #85754d;
+    width: 220px;
+}
+
+.book_quote{
+    border: 2px solid #85754d;
+    width: 400px;
+}
+
+.book_abstract{
+    font: 15px 幼圆;
+    border: 2px solid #85754d;
+    width: 400px;
+    text-align: left;
+    line-height: 20px;
+    text-indent: 2em;
+}
+
+#book_table_title{
+    height: 50px;
+    text-align: center;
+}
+
+.b_P{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: 10px;
+}
+
+.book_abstract_p{
+    margin: 0;
+    padding: 0;
+}
+
+.book_quote_inner{
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.book_quote_list{
+    font: 15px 幼圆;
+    text-align: left;
+    line-height: 20px;
+}
+
+#book_table_title .book_name,
+#book_table_title .book_author,
+#book_table_title .book_abstract,
+#book_table_title .book_quote{
+    text-align: center;
+    font: 20px 幼圆;
+}
+
+#recommend{
+    width: 400px;
+    height: 100px;
+    margin: 5px 0 0 0;
+    float: right;
+}
+
+#more_label{
+    text-align: center;
+    font: 20px 幼圆;
+    color: #85754d;
+    width: 200px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#more{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border-color: #85754d;
+    background-color: #f1efe3;
+}
+
+#recommend_sub{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    margin-right: 210px;
+    float: right;
+    color: #85754d;
+    font: 8px 幼圆;
+    background-color: #f1efe3;
+    border: 1px solid black;
+    width: 35px;
+}
+
+#recommend p{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background: url(../img/homepage-background.jpg);
+}
+
+#body_inner{
+    width: 1200px;
+    height: 700px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home_title{
+    width: 100%;
+    height: 180px;
+}
+
+/* 字体为幼圆，加粗 */
+#home_title_contain{
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 0px;
+    width: 550px;
+    float: right;
+}
+
+#home_title_1{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#home_title_2{
+    text-align: right;
+    /* margin-right: 90px; */
+}
+
+#p1{
+    position: absolute;
+    top: 25px;
+    left: 900px;
+    border: 2px #f1efe3;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#picture{
+    width: 100%;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.home_picture{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    float: right;
+    margin-right: 30px;
+}
+
+.home_picture_right{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    float: right;
+    margin-right: 0px;
+}
+
+#resume{
+    width: 100%;
+    height: 150px;
+}
+
+#resume_contain{
+    width: 1000px;
+    height: 100px;
+    margin: 50px auto 0 auto;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.resume_list{
+    width: 250px;
+    height: 100px;
+    list-style-type: none;
+    float: left;
+    font-family: 幼圆;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#nav{
+    width: 100%;
+    height: 160px;
+}
+
+#nav_contain{
+    margin: 10px auto 0 100px;
+    padding: 0;
+    width: 700px;
+    height: 150px;
+    float: left;
+}
+
+#nav_title{
+    font: 20px 幼圆;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.nav_list{
+    list-style-type: none;
+    height: 50px;
+    font: 18px 幼圆;
+    width: 200px;
+    float: left;
+}
+
+.nav_p{
+    margin-top: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.con1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#zuel{
+    text-decoration: none;
+    font: 18px 幼圆;
+    color: black;
+}
+
+#zuel_Engineering{
+    text-decoration: none;
+    font: 18px 幼圆;
+    color: black;
+}
+
+.nav_con{
+    text-decoration: none;
+    color: black;
+}
+
+a#zuel:hover,
+a#zuel_Engineering:hover,
+a.nav_con:hover{
+    color: darkorange;
+}

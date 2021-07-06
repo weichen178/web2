@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body><!--设置背景-->
+    <!-- 内部内容,设置其margin-left: auto;margin-right: auto; -->
+    <div id="body_inner">
+        <!-- 首页标题的框架设置，height -->
+        <div id="home_title">
+            <!-- 标题内容设置，font -->
+            <div id="home_title_contain">
+                <!-- 上下分两行，左右text-align不同 -->
+                <div id="home_title_1">欢迎来到......</div>
+                <div id="home_title_2">小赵的理想王国</div>
+            </div>
+        </div>
+        <!-- 照片区，浮动在右侧，四个角设置弧度 -->
+        <div id="picture">
+            <img src="img/p1.jpg" alt="p1" class="home_picture_right">
+            <img src="img/p2.jpg" alt="p2" class="home_picture">
+            <img src="img/p3.jpg" alt="p3" class="home_picture">
+        </div>
+        <!-- 个人简介区 -->
+        <div id="resume">
+            <!-- 列表表示 -->
+            <ul id="resume_contain">
+                <li class="resume_list"><strong class="con1">Personal Information</strong><br>姓名：赵晨翔<br>年龄：18周岁</li>
+                <li class="resume_list"><strong class="con1">You Can Find Me Through</strong><br>QQ：1789958474<br>微信：zcx15528803783<br>联系电话：15527703783</li>
+                <!-- 链接到学校和学院官网 -->
+                <li class="resume_list"><strong class="con1">Now Studying In</strong><br><a href="http://www.zuel.edu.cn/" id="zuel">中南财经政法大学</a><br><a href="http://xagx.zuel.edu.cn/" id="zuel_Engineering">信息与安全工程学院</a></li>
+                <!-- 链接到专业百度百科 -->
+                <li class="resume_list"><strong class="con1">My Major</strong><br><a href="https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F/890173?fr=aladdin" id="zuel_Engineering">信息管理与信息系统</a></li>
+            </ul>
+        </div>
+        <!-- 导航区 -->
+        <div id="nav">
+            <!-- 列表表示导航区 -->
+            <ul id="nav_contain">
+                <li id="nav_title">More About Me</li>
+                <!-- 链接到其他三个页面 -->
+                <a href="./book.html" class="nav_con"><li class="nav_list">Read Some Books<br><img src="img/b1.jpg" alt="" class="nav_p"></li></a>
+                <a href="./travel.html" class="nav_con"><li class="nav_list">Travel Somewhere<br><img src="img/t1.jpg" alt="" class="nav_p"></li></a>
+                <a href="./video.html" class="nav_con"><li class="nav_list">Make Some Videos<br><img src="img/v1.jpg" alt="" class="nav_p"></li></a>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/video.css">
+</head>
+<body>
+    <div id="video_inner">
+        <img src="./img/v2.jpg" alt="Make Some Videos" id="v_P_2">
+        <div id="video_title">Make Some Videos</div>
+        <!-- 推荐区 -->
+        <div id="recommend">
+            <p><label for="more" id="more_label">提高制作视频技巧的东东可以↓</label></p>
+            <p><textarea id="more" name="idea"  cols="50" rows="3"></textarea></p>
+            <p><input type="submit" value="提交" id="recommend_sub"></p> 
+        </div>
+        <!-- 展示区 -->
+        <table id="video_table">
+            <!-- 推荐软件 -->
+            <tr class="video_tr1">
+                <td class="video_td1">软件推荐</td>
+                <td class="video_td2">剪映</td>
+                <td class="video_td3">剪映是抖音官方推出的一款手机视频编辑剪辑应用。带有全面的剪辑功能，支持变速，多样滤镜效果，以及丰富的曲库资源。软件发布的系统平台有IOS版、Android版和Mac os版。</td>
+            </tr>
+            <!-- 音源接入 -->
+            <tr class="video_tr2">
+                <td class="video_td1">音乐来源</td>
+                <td class="video_td2">QQ音乐、抖音等</td>
+                <td class="video_td3">在相关平台获取音频或视频链接，粘贴到剪映“导入音乐”界面，获取音源</td>
+            </tr>
+            <!-- 展示视频 -->
+            <tr class="video_tr3">
+                <td class="video_td1">视频展示</td>
+                <!-- 设置v1和v2来控制视频的大小、四角的弧度以及位置 -->
+                <td class="video_td2"><video src="./video/v1.MP4" autoplay="autoplay" controls="controls" id="v1"></video></td>
+                <td class="video_td3">Looking forward to later creation<br>Thank you for browsing</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
